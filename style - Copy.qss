@@ -1,0 +1,76 @@
+/* ----------------- 面板背景 ----------------- */
+QWidget#pointpanel, QWidget#videopanel {
+    background-color: #1e1e1e;
+    border: 1px solid #555555;
+    border-radius: 8px;
+}
+
+QWidget#infoPanel {
+    background-color: #f0f0f0;
+    border-top: 1px solid #cccccc;
+}
+
+/* ----------------- 视频 Label ----------------- */
+QLabel#videoLabel {
+    background-color: black;
+    color: white;
+    border: 2px solid #555555;
+    border-radius: 8px;
+    qproperty-alignment: 'AlignCenter';
+}
+
+/* ----------------- Slider ----------------- */
+QSlider::groove:horizontal {
+    height:6px;
+    background:#444444;
+    border-radius:3px;
+}
+QSlider::handle:horizontal {
+    width:12px;
+    height:12px;
+    background:#00aaff;
+    border-radius:6px;
+    margin:-3px 0;
+}
+
+/* ----------------- 按钮 ----------------- */
+QPushButton {
+    background-color: #2e2e2e;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #3e3e3e;
+}
+QPushButton:pressed {
+    background-color: #1e90ff;
+}
+
+/* ----------------- Labels ----------------- */
+QLabel#pointcloudtitle, QLabel#videotitle {
+    font-size:16pt;
+    font-weight:bold;
+    color:white;
+}
+
+QLabel#speedLabel, QLabel#frameLabel, QLabel#timeLabel {
+    color:#333333;
+    font-weight:bold;
+}
+
+/* ----------------- ComboBox & Info ----------------- */
+QComboBox {
+    background-color: #ffffff;
+    border:1px solid #ccc;
+    border-radius:6px;
+    padding:4px;
+}
+QLabel#labelPointInfo {
+    background-color:#e0e0e0;
+    border-radius:6px;
+    padding:4px;
+    color:#000;
+}
